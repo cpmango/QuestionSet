@@ -1,6 +1,6 @@
-site_name: MkLorum
+site_name: QuestionSet
 site_url: https://example.com/
 nav:
     - Home: index.md
-    - About: about.md
+    - linux命令: linux命令.md
 theme: readthedocs
