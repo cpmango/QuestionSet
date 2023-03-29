@@ -2,7 +2,7 @@
 
 ## 网站证书有效期和系统时间不符
 
-1. 問題詳情
+** 问题详情 **
 ```
 
 Your Computer Clock is Wrong
@@ -17,12 +17,13 @@ Security (HSTS), which means that Firefox can only connect to it securely.
 You can't add an exception to visit this site.
 
 ```
+![](img/1679633735.png) 
 
-1. 解決方案
+** 解決方案 **
 ```bash
-timedatectl | grep Time    # 查看時區
-date    # 查看系統時間
-sudo hwclock    # 查看硬件時間
-date -s "2023-03-23 16:14:10"    # 設置系統時間
-sudo hwclock -s    # 同步硬件時間爲系統時間
+timedatectl | grep Time    # 查看时区
+date    # 查看系统时间
+sudo hwclock    # 查看硬件时间
+date -s "2023-03-23 16:14:10"    # 设置系统时间
+sudo hwclock -s    # 同步硬件时间为系统时间
 ```

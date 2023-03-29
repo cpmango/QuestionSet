@@ -1,4 +1,4 @@
-site_name: QuestionSet
+site_name: questionSet
 site_url: https://example.com/
 nav:
     - Home: index.md
